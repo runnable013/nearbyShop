@@ -1,0 +1,88 @@
+
+a {
+    text-decoration: none;
+}
+
+                    /* top-header */
+.top-header{
+    margin: 10px 15px 0 0;
+}
+
+.login-text {
+    line-height: 45%;
+    float: right;
+
+    font-size: 14px;
+    color: gray;
+    /* border: 1px solid red; */
+}
+
+.login-text:hover{
+    color: darkslategray;
+}
+
+                    /* logo-search */
+.logo-search {
+    margin: 0 0 20px 0;
+    width: 100%;
+    height: 100px;
+
+    /* 가운데 정렬 */
+    display: flex;
+    visibility: visible;
+
+    /* border: 1px solid red; */
+}
+
+.logo {
+    /* 레이아웃 */
+    line-height: 90%;
+
+    /* 가운데 정렬 */
+    margin: auto;
+
+    font-size: 42px;
+    color: black;
+
+    display: inline;
+
+    /* border: 1px solid red; */
+}
+
+.search {
+    width: 100%;
+    margin-right: 160px;
+
+    /* 가운데 정렬 */
+    /* display: flex; */
+
+    display: none;
+
+    /* border: 1px solid red; */
+}
+
+.sub-logo {
+    /* 레이아웃 */
+    margin: 8px 10px 0 10px;
+    min-width: 80px;
+    max-width: 140px;
+
+    font-size: 24px;
+    color: black;
+
+    /* border: 1px solid red; */
+}
+
+.search-bar{
+    /* 가운데 정렬 */
+    margin: 45px auto 0 auto;
+
+    height: 30px;
+    width: 500px;
+    font-size: 16px;
+}
+
+                    /* introduction */
+.introduction-section {
+    border-top: 2px solid #ebebeb;
+}
