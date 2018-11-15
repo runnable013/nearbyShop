@@ -1,0 +1,13 @@
+
+.login-bar {
+    margin: 5px auto 5px auto;
+
+    height: 20px;
+    width: 200px;
+    font-size: 12px;
+}
+
+.login-btn{
+    height: 25px;
+    width: 205px;
+}
