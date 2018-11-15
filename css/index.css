@@ -34,29 +34,27 @@ a {
     /* border: 1px solid red; */
 }
 
-.logo {
+/* .logo { */
     /* 레이아웃 */
-    line-height: 90%;
+    /* line-height: 90%; */
 
     /* 가운데 정렬 */
-    margin: auto;
+    /* margin: auto;
 
     font-size: 42px;
     color: black;
 
-    display: inline;
+    display: inline; */
 
     /* border: 1px solid red; */
-}
+/* } */
 
 .search {
     width: 100%;
     margin-right: 160px;
 
     /* 가운데 정렬 */
-    /* display: flex; */
-
-    display: none;
+    display: flex;
 
     /* border: 1px solid red; */
 }
