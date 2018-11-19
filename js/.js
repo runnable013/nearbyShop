@@ -7,5 +7,5 @@ window.onload = function() {
 }
 
 function onSearch() {
-    location.href="C:/Users/qqaa2/Documents/GitHub/nearbyShop/search.html";
+    location.href="search.html";
 }
