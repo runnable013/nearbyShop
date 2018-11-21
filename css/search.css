@@ -1,9 +1,43 @@
 
-.login-logo{
-    font-size: 40px;
-    color: black;
+body{
+    margin-top: 0; 
+    padding: 0 90px 0 75px;
+
+    /* background-image: url("../images/item2.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat; */
+}
+
+body::-webkit-scrollbar { 
+    display: none; 
 }
 
 .href-color:hover{
    color: darkslategray; 
+}
+
+.main-item{
+    padding: 10px 50px 10px 50px;
+
+    /* border-top: 2px solid #ebebeb; */
+}
+
+.store-name, .store-address{
+    margin: 0 200px 0 0;
+
+    /* border: 1px solid red; */
+}
+
+.store-map{
+    float: right;
+
+    /* border: 1px solid red; */
+}
+
+.base-color{
+   color: black;
+}
+
+input:focus{
+    outline: 0;
 }
