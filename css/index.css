@@ -8,21 +8,29 @@ a {
     /* margin: 5px 15px 0px 0; */
 }
 
+.top-header {
+    background-color: gray;
+}
+
 .login-text {
     /* line-height: 45%; */
-    margin: 5px 15px 1px 0;
+    margin: 1px 15px 1px 0;
     float: right;
 
     font-size: 14px;
-    color: gray;
+    color: white;
     /* border: 1px solid red; */
+}
+
+.login-text:hover{
+    text-decoration: underline;
 }
 
                     /* logo-search */
 .logo-search {
     width: 80%;
-    height: 100px;
-    margin: 0% auto 40px auto;
+    height: 170px;
+    margin: 0 auto 0 auto;
     padding: 40px 10% 40px 10%;
 
     /* 가운데 정렬 */
@@ -63,10 +71,11 @@ a {
 
 .sub-logo {
     /* 레이아웃 */
-    margin: 8px 10px 0 10px;
+    margin: 15px 10px 0 10px;
     padding: 1px 0px 0px 1px;
     min-width: 80px;
     max-width: 140px;
+    height: 90px;
     
     font-size: 24px;
     font-weight: bold;
@@ -76,7 +85,7 @@ a {
     border-right: 1.5px solid rgb(24, 24, 24);
     opacity: 1;
 
-    animation: breath-color 66s infinite;
+    animation: breath-color 62s infinite;
 
     -webkit-touch-callout: none;
     user-select: none;
@@ -88,7 +97,7 @@ a {
 
 .search-bar {
     /* 가운데 정렬 */
-    margin: 45px 0 0 auto;
+    margin: 52px 0 0 auto;
 
     width: 480px;
     height: 30px;
@@ -102,7 +111,7 @@ a {
 .search-bar-icon{
     width: 40px;
     height: 36px;
-    margin: 45px auto 0 0;
+    margin: 52px auto 0 0;
     padding: 4px 0 0 5px;
 
     color: rgba(255, 255, 255, 0.7);
@@ -113,13 +122,43 @@ a {
 }
 
                     /* introduction */
-.introduction1 {
-    height: 450px;
+.introductions {
+    height: 800px;
+    padding-top: 10px;
 
+    background-image: url("../images/item2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    filter: grayscale();
 }
 
-.introduction2 {
-    height: 450px;
+.icon-sns {
+    margin-right: 25px;
+
+    color: white;
+}
+
+/* 스크롤하면 옆에서 나오는 애니메이션 + 사라지는 애니메이션*/
+.introduction {
+    width: 100%;
+    height: 60px;
+    margin: 50px 0 50px 0;
+
+    line-height: 25px;
+    background-color: rgba(20, 20, 20, 0.8);
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 1px #dddddd;
+}
+
+.introduction-left {
+    padding: 0 0 0 20px;
+}
+
+.introduction-right{
+    float: right;
+    padding: 0 20px 0 0px;
 }
 
 hr {
@@ -128,6 +167,14 @@ hr {
 
     border: 0px;
     background-color: gray;
+}
+
+                    /* ETC */
+
+.side{
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    height: 25px;
 }
 
 @keyframes breath-color{
@@ -267,3 +314,5 @@ hr {
         opacity: 1;
     }
 }
+
+

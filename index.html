@@ -10,11 +10,11 @@
 </head>
 <body>
     <header class="top-header">
-        <span class="login">
-            <a href="login.html">
-                <span class="login-text href-color">login</span>
+        <div class="side" style="border-top-left-radius: 180%;">
+            <a href="login.html" class="login-text href-color">
+                <span class="login-text">Login</span>
             </a>
-        </span>
+        </div>
         <span class="login-menu">
 
         </span>
@@ -28,15 +28,26 @@
             <div class="search-bar-icon" onclick="onSearch()"> <i class="fas fa-search fa-2x"></i> </div>
         </div>
     </div>
+    <div class="sides" style="background-color: rgb(175, 175, 175)">
+        <div class="side"> </div>
+        <div class="side" style="border-bottom-right-radius: 190%;"> </div>
+        <div class="side" style="height: 5px; background-color: rgb(175, 175, 175)"></div>
+    </div>
 
-    <main class="main-items">
-        <hr>
-        <div class="main-item introduction1">
-            <div>간단한 사이트 소개</div>
+    <main class="main-items introductions">
+        <div class="main-item introduction">
+            <div class="introduction-left">찾는 물건을 검색 - 물건이 있는 가게정보</div>
         </div>
-        <hr>
-        <div class="main-item introduction2">
-            <div>사이트 이용방법</div>
+        <div class="main-item introduction">
+            <div class="introduction-right">구매하려는 물건의 가장 가까운 가게정보</div>
+        </div>
+        <div class="main-item introduction">
+            <div class="introduction-left"></div>
+        </div>
+        <div class="main-item introduction">
+            <div class="introduction-right">
+                <i class="icon-sns fab fa-twitter"></i><i class="icon-sns fab fa-facebook-f"></i><i class="icon-sns fab fa-instagram"></i>
+            </div>
         </div>
     </main>
 </body>
