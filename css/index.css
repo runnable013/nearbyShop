@@ -20,7 +20,7 @@ a {
 
                     /* logo-search */
 .logo-search {
-    width: 82%;
+    width: 80%;
     height: 100px;
     margin: 0% auto 40px auto;
     padding: 40px 10% 40px 10%;
@@ -93,7 +93,7 @@ a {
     width: 480px;
     height: 30px;
     font-size: 16px;
-    border: 2px solid rgba(0, 0, 0);
+    border: 2px solid rgba(60, 60, 60, 0.8);
     background-color: rgba(255, 255, 255, 0.8);
 
     padding: 5px 10px 5px 10px;
@@ -106,8 +106,8 @@ a {
     padding: 4px 0 0 5px;
 
     color: white;
-    border: 2px solid black;
-    background-color: rgba(120, 120, 120, 0.8);
+    border: 2px solid rgba(60, 60, 60, 0.8);
+    background-color: rgba(60, 60, 60, 0.8);
 
     cursor: pointer;
 }
