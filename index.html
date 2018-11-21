@@ -20,23 +20,23 @@
         </span>
     </header>
 
-    <nav class="logo-search" onmouseover="disSearch()" onmouseout="onLogo()">
+    <div class="logo-search">
         <!-- <div id="logo" class="logo">Nearby shop</div> -->
         <div id="search" class="search">
             <div class="sub-logo">Nearby shop</div>
             <input class="search-bar" type="text" onkeypress="if(event.keyCode==13) {onSearch(); return false;}">
+            <div class="search-bar-icon" onclick="onSearch()"> <i class="fas fa-search fa-2x"></i> </div>
         </div>
-    </nav>
+    </div>
 
-    <main class="introductions">
-        <div class="introduction">
-            <div>Test 설명1</div>
+    <main class="main-items">
+        <hr>
+        <div class="main-item introduction1">
+            <div>간단한 사이트 소개</div>
         </div>
-        <div class="introduction">
-            <div>Test 설명2</div>
-        </div>
-        <div class="introduction">
-            <div>Test 설명3</div>
+        <hr>
+        <div class="main-item introduction2">
+            <div>사이트 이용방법</div>
         </div>
     </main>
 </body>
