@@ -23,24 +23,30 @@
     <nav class="logo-search" onmouseover="disSearch()" onmouseout="onLogo()">
         <!-- <div id="logo" class="logo">Nearby shop</div> -->
         <div id="search" class="search">
-            <a class="sub-logo href-color" href="index.html">Nearby shop</a>
+            <a class="sub-logo base-color href-color" href="index.html">Nearby shop</a>
             <input class="search-bar" type="text" onkeypress="if(event.keyCode==13) {onSearch(); return false;}">
+            <div class="search-bar-icon" onclick="onSearch()"> <i class="fas fa-search fa-2x"></i> </div>
         </div>
     </nav>
 
-    <main class="introductions">
-        <div class="introduction">
-            <div>가게정보1</div>
+    <main class="main-items">
+        <hr>
+        <div class="main-item">
+            <span class="store-name">가게명</span>
+            <!-- 가게의 주소 -->
+            <span class="store-address">주소</span>
+            <!-- 지도: 클릭시 네이버 지도에 자동 입력 및 검색 -->
+            <span class="store-map">지도 <i class="fas fa-search-location fa"></i> </span> 
         </div>
-        <div class="introduction">
-            <div>가게정보2</div>
+        <hr>
+        <div class="main-item">
+            <span class="store-name">가게명</span>
+            <!-- 가게의 주소 -->
+            <span class="store-address">주소</span>
+            <!-- 지도: 클릭시 네이버 지도에 자동 입력 및 검색 -->
+            <span class="store-map">지도 <i class="fas fa-search-location"></i> </span> 
         </div>
-        <div class="introduction">
-            <div>가게정보3</div>
-        </div>
-        <div class="introduction">
-            <div>가게정보4</div>
-        </div>
+        <hr>
     </main>
 </body>
 </html>
