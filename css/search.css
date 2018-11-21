@@ -17,20 +17,29 @@ body::-webkit-scrollbar {
 }
 
 .main-item{
-    padding: 10px 50px 10px 50px;
+    height: 30px;
+    padding: 10px 0 10px 0;
 
-    /* border-top: 2px solid #ebebeb; */
+    /* border: 1px solid red; */
 }
 
 .store-name, .store-address{
     margin: 0 200px 0 0;
 
+    font-size: 16px;
+
     /* border: 1px solid red; */
 }
 
-.store-map{
-    float: right;
+.store-name{
+    margin-left: 15px;
+}
 
+.store-map{
+    margin-right: 15px;
+    float: right;
+    color: rgb(42, 42, 42);
+    
     /* border: 1px solid red; */
 }
 
