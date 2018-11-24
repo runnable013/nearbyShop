@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="top-header">
-        <div class="side" style="border-top-left-radius: 180%;">
+        <div class="side-top" style="border-top-left-radius: 30%;">
             <a href="login.html" class="login-text href-color">
                 <span class="login-text">Login</span>
             </a>
@@ -24,12 +24,11 @@
         <!-- <div id="logo" class="logo">Nearby shop</div> -->
         <div id="search" class="search">
             <a class="sub-logo base-color href-color" href="index.html">Nearby shop</a>
-            <input class="search-bar" type="text" onkeypress="if(event.keyCode==13) {onSearch(); return false;}">
+            <input class="search-bar" type="text" maxlength="16" onkeypress="if(event.keyCode==13) {onSearch(); return false;}">
             <div class="search-bar-icon" onclick="onSearch()"> <i class="fas fa-search fa-2x"></i> </div>
         </div>
     </nav>
-        <div class="side"> </div>
-        <div class="side" style="border-bottom-right-radius: 190%;"> </div>
+        <div class="side-bottom"> </div>
 
     <main class="main-items">
         <hr>
