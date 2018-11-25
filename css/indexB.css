@@ -9,15 +9,16 @@ a {
 }
 
 .top-header {
-    background-color: rgb(190, 159, 133);
+    /* background-color: rgb(190, 159, 133); */
 }
 
 .login-text {
     /* line-height: 45%; */
-    margin: 1px 25px 1px 0;
+    padding: 0px 3px 0px 3px;
+    margin: 1px 60px 1px 0;
     float: right;
 
-    font-size: 14px;
+    font-size: 16px;
     color: white;
     /* border: 1px solid red; */
 }
@@ -36,6 +37,10 @@ a {
     /* 가운데 정렬 */
     display: flex;
     visibility: visible;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 
     background-image: url("../images/place4.jpg");
     background-position: 50%;
@@ -112,13 +117,13 @@ a {
     /* 가운데 정렬 */
     margin: 130px auto 0 0;
 
-    width: 50px;
+    width: 45px;
     height: 36px;
-    padding: 8px 0 0 8px;
+    padding: 7px 0 3px 7px;
 
     color: rgba(255, 255, 255, 0.7);
     border: 2px solid rgba(60, 60, 60, 0.8);
-    background-color: rgba(166, 123, 91, 0.6);
+    background-color: rgba(180, 130, 100, 0.6);
 
     cursor: pointer;
 }
@@ -178,19 +183,19 @@ hr {
 }
 
 .side-top{
-    /* background-color: rgb(20, 20, 20); */
     height: 25px;
-    border-top-left-radius: 45%;
+    border-top-left-radius: 10px;
 
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(80, 80, 80);
 }
 
 .side-bottom{
-    height: 50px;
+    margin-top: 5px; 
 
-    /* border-bottom-left-radius: 90%;
-    border-bottom-right-radius: 90%; */
-    background-color: rgb(166, 123, 91);
+    height: 55px;
+
+    border-radius: 10px;
+    background-color: rgb(200, 150, 120);
 }
 
 @keyframes breath-color{
