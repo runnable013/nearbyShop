@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .background-img {
     position: absolute;
     z-index: 2;
@@ -38,7 +42,7 @@ body {
 }
 
 .top {
-    margin: 8px 60px 0 0;
+    margin: 8px 65px 0 0;
 
     float: right;
 }
@@ -46,11 +50,17 @@ body {
 .login-btn {
     padding: 2px 7px 2px 7px;
 
-    color: white;
-    text-shadow: 0 0 3px rgba(222, 222, 222, 1);
     font-size: 16px;
+    color: rgba(230, 230, 230, 1);
+    text-shadow: 0 0 3px rgba(222, 222, 222, 1);
 
+    border-radius: 6px;
     /* border: 1px solid red; */
+}
+
+.login-btn:hover{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(200, 200, 200, 0.5);
 }
 
 .logo {
@@ -96,7 +106,6 @@ body {
     font-size: 30px;
     color: rgba(40, 40, 40, 0.9);
 
-    
     background-color: rgba(255, 255, 255, 0.5);
     border: 0px;
 }
