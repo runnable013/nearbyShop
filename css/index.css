@@ -66,7 +66,7 @@ a {
 }
 
 .logo {
-    margin: 150px 0 0 0;
+    margin: 160px 0 0 0;
 
     /* border: 1px solid red; */
 }
@@ -80,18 +80,18 @@ a {
 }
 
 .logo-text { 
-    width: 500px;
+    width: 100%;
 
     color: rgba(255, 255, 255, 0.6);
     text-shadow: 0 0 7px rgba(222, 222, 222, 0.6);
-    font-size: 80px;
+    font-size: 100px;
 
     animation: breath-color 16s infinite;
     /* border: 1px solid red; */
 }
 
 .search {
-    margin: 50px 0 0 0;
+    margin: 65px 0 0 0;
 
     text-align: center;
 
