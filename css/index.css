@@ -7,10 +7,11 @@ a {
     text-decoration: none;
 }
 
-.background-img, .translucent-layer, .contents {
-    position: absolute;
-    width: 100%;
+.background-img, .translucent-layer{
+    position: fixed;
+
     height: 100%;
+    width: 100%;
 }
 
 .background-img {
@@ -30,15 +31,22 @@ a {
 }
 
 .contents {
+    position: absolute;
     z-index: 4;
+
+    width: 100%;
+
+    /* 임시 height */
+    height: 1000px;
 
     /* border: 1px solid red; */
 }
 
 .top {
-    margin: 8px 65px 0 0;
+    position: fixed;
+    right: 65px;
 
-    float: right;
+    margin: 8px 0 0 0;
 }
 
 .login-btn {
