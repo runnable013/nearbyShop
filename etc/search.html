@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/.js"></script>
+    <title>search</title>
+</head>
+<body>
+    <header class="top-header">
+        <div class="side-top">
+            <a href="login.html" class="href-color">
+                <span class="login-text">login</span>
+            </a>
+        </div>
+        <span class="login-menu">
+
+        </span>
+    </header>
+
+    <nav class="logo-search" onmouseover="disSearch()" onmouseout="onLogo()">
+        <!-- <div id="logo" class="logo">Nearby shop</div> -->
+        <div id="search" class="search">
+            <a class="sub-logo base-color href-color" href="index.html">Nearby shop</a>
+            <input class="search-bar" type="text" maxlength="16" onkeypress="if(event.keyCode==13) {onSearch(); return false;}">
+            <div class="search-bar-icon" onclick="onSearch()"> <i class="fas fa-search fa-2x"></i> </div>
+        </div>
+    </nav>
+        <div class="side-bottom"> </div>
+
+    <main class="main-items">
+        <hr>
+        <div class="main-item">
+            <span class="store-name">가게명</span>
+            <!-- 가게의 주소 -->
+            <span class="store-address">주소</span>
+            <!-- 지도: 클릭시 네이버 지도에 자동 입력 및 검색 1.함수 2.링크 -->
+            <span class="store-map"><i class="fas fa-search-location fa fa-2x"></i></span> 
+        </div>
+        <hr>
+        <div class="main-item">
+            <span class="store-name">가게명</span>
+            <!-- 가게의 주소 -->
+            <span class="store-address">주소</span>
+            <!-- 지도: 클릭시 네이버 지도에 자동 입력 및 검색 1.함수 2.링크 -->
+            <span class="store-map"><i class="fas fa-search-location fa-2x"></i></span> 
+        </div>
+        <hr>
+    </main>
+</body>
+</html>

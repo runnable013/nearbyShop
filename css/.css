@@ -1,5 +1,5 @@
 
-@media all and (min-width: 0px) {
+@media all and (min-width: 728px) {
 
     body {
         margin: 0;
@@ -39,7 +39,7 @@
         width: 100%;
 
         /* 임시 height */
-        height: 1000px;
+        height: 100%;
 
         /* border: 1px solid red; */
     }
@@ -68,7 +68,7 @@
     }
 
     .logo {
-        margin: 150px 0 0 0;
+        margin: 180px 0 0 0;
 
         /* border: 1px solid red; */
     }
@@ -82,22 +82,22 @@
     }
 
     .logo-text { 
-        width: 500px;
+        width: 580px;
 
         color: rgba(255, 255, 255, 0.6);
         text-shadow: 0 0 7px rgba(222, 222, 222, 0.6);
-        font-size: 80px;
+        font-size: 85px;
 
         animation: breath-color 16s infinite;
         /* border: 1px solid red; */
     }
 
     .search {
-        margin: 50px 0 50px 0;
+        margin: 120px 0 100px 0;
 
         text-align: center;
 
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .search-bar {
@@ -126,16 +126,97 @@
         border: 3px solid red;
     } */
 
-    .stores{
-        margin: 0 50% 0 50%;
+    .stores {
+        margin: 160px 0 0 0;
+        height: 500px;
 
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
-    .store{
-        width: 50px;height: 50px; background-color: white
+    .store {
+        text-align: center;
 
-        border: 1px solid red;
+        margin: 30px auto 30px auto;
+        width: 700px;
+        height: 60px;
+        /* border-radius: 30px; */
+
+        /* background-color: rgba(255, 255, 255, 0.5);
+        border: 2px solid black; */
+        /* border: 2px solid red;  */
+    }
+
+    .store-title, .store-item {
+        border-radius: 20px;
+
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .store-title{
+        font-weight: 600;
+
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 2px solid rgba(0, 0, 0, 1);
+    }
+
+    .store-item {
+        border-radius: 20px;
+
+        background-color: rgba(255, 255, 255, 0.2);
+        border: 2px solid rgba(255, 255, 255, 0.7);
+    }
+
+    .store-name, .store-name-result {
+        float: left;
+
+        margin: 0 10px 0 20px;
+        padding:12px 0 5px 0;
+        width: 150px;
+        height: 30px;
+    }
+
+    .store-address, .store-address-result {
+        float: left;
+
+        margin: 0 0px 0 35px;
+        padding: 12px 0 5px 0;
+        width: 370px;
+        height: 30px;
+    }
+
+    .store-map, .store-map-result {
+        float: right;
+
+        margin: 0 10px 0 0px;
+        width: 50px;
+    }
+
+    .store-name {
+
+    }
+
+    .store-address {
+        
+    }
+
+    .store-map {
+        padding: 10px 0 6px 0;
+        height: 28px;
+    }
+
+    .store-name-result {
+        color: rgba(255, 255, 255);
+    }
+
+    .store-address-result {
+        color: rgba(255, 255, 255);
+    }
+
+    .store-map-result {
+        padding: 5px 0 6px 0;
+        height: 30px;
+
+        color: rgba(255, 255, 255, 0.7);
     }
 
 } /* max-width: 0px */
