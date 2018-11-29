@@ -7,5 +7,5 @@ window.onload = function() {
 }
 
 function onSearch() {
-    location.href="search.html";
+    $("html, body").animate({scrollTop : $('.result').offset().top-100}, 600);
 }

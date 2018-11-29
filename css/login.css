@@ -12,9 +12,22 @@
     font-size: 12px;
 }
 
-.login-btn{
+.login-btn {
     width: 215px;
     height: 31px;
+    font-size: 16px;
+
+    color: gray;
+
+    border-radius: 6px;
+}
+
+.login-btn:hover {
+    color: black;
+}
+
+.login-btn:focus {
+    outline: none;
 }
 
 .login-logo, .login-bars, .login-under{

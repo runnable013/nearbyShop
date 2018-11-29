@@ -1,4 +1,12 @@
 
+/* @media all and (max-width: 420px) {
+
+} */
+
+/* @media all and (min-width: 420px) and (max-width: 728px) {
+
+} */
+
 @media all and (min-width: 728px) {
 
     body {
@@ -7,6 +15,22 @@
 
     a {
         text-decoration: none;
+    }
+
+    hr {
+        width: 100%;
+        height: 2px;
+    
+        border: 0px;
+        background-color: gray;
+    }
+
+    .base-color {
+        color: black;
+    }
+
+    .href-color:hover {
+        color: darkslategray; 
     }
 
     .background-img, .translucent-layer{
@@ -51,7 +75,7 @@
         margin: 8px 0 0 0;
     }
 
-    .login-btn {
+    .top-login-btn {
         padding: 2px 7px 2px 7px;
 
         font-size: 16px;
@@ -62,7 +86,7 @@
         /* border: 1px solid red; */
     }
 
-    .login-btn:hover{
+    .top-login-btn:hover{
         color: rgba(255, 255, 255, 1);
         background-color: rgba(200, 200, 200, 0.5);
     }
@@ -200,7 +224,7 @@
     }
 
     .store-map {
-        padding: 10px 0 6px 0;
+        padding: 12px 0 6px 0;
         height: 28px;
     }
 
@@ -213,7 +237,7 @@
     }
 
     .store-map-result {
-        padding: 5px 0 6px 0;
+        padding: 7px 0 9px 0;
         height: 30px;
 
         color: rgba(255, 255, 255, 0.7);
