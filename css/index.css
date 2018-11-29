@@ -93,11 +93,11 @@
     }
 
     .search {
-        margin: 50px 0 140px 0;
+        margin: 50px 0 50px 0;
 
         text-align: center;
 
-        /* border: 1px solid red; */
+        border: 1px solid red;
     }
 
     .search-bar {
@@ -127,17 +127,14 @@
     } */
 
     .stores{
+        margin: 0 50% 0 50%;
 
-        /* border: 1px solid red; */
+        border: 1px solid red;
     }
 
     .store{
-        margin: 0 auto 0 auto;
+        width: 50px;height: 50px; background-color: white
 
-        width: 600px;
-        height: 60px;
-
-        background-color: rgba(255, 255, 255, 0.5);
         border: 1px solid red;
     }
 
