@@ -146,6 +146,8 @@ a {
     }
 
     .top-logo {
+        visibility: hidden;
+
         z-index: 6;
 
         position: fixed;
@@ -163,11 +165,11 @@ a {
     .top-search-bar {
         float: left;
 
-        margin: 5px 0 0 30px;
-        padding: 3px 9px 3px 9px;
-        width: 220px;
+        margin: 5px 0 0 10px;
+        padding: 3px 6px 3px 6px;
+        width: 170px;
         height: 25px;
-        font-size: 13px;
+        font-size: 12px;
         border-radius: 6px;
 
         color: rgba(40, 40, 40, 0.9);
@@ -191,7 +193,7 @@ a {
     }
 
     .logo {
-        margin: 180px 0 0 0;
+        margin: 160px 0 0 0;
 
         /* position: fixed;
         transition: top 0.2s ease-in-out; */
@@ -210,7 +212,7 @@ a {
     }
 
     .search {
-        margin: 120px 0 100px 0;
+        margin: 110px 0 100px 0;
 
         text-align: center;
 
@@ -220,7 +222,7 @@ a {
     .search-bar {
         padding: 5px 10px 5px 10px;
 
-        width: 340px;
+        width: 280px;
         height: 40px;
         border-radius: 6px;
 
@@ -241,7 +243,7 @@ a {
     .stores {
         margin: 300px 0 0 0;
         height: 500px;
-        font-size: 12px;
+        font-size: 10px;
         /* border: 1px solid red; */
     }
 
@@ -249,7 +251,7 @@ a {
         text-align: center;
 
         margin: 30px auto 30px auto;
-        width: 400px;
+        width: 320px;
         height: 60px;
         /* border-radius: 30px; */
 
@@ -261,36 +263,36 @@ a {
     .store-name, .store-name-result {
         float: left;
 
-        margin: 0 5px 0 10px;
-        padding: 15px 0 5px 0;
-        width: 80px;
-        height: 30px;
+        margin: 0 2px 0 2px;
+        padding: 10px 0 5px 0;
+        width: 60px;
+        height: 20px;
     }
 
     .store-address, .store-address-result {
         float: left;
 
-        margin: 0 5px 0 5px;
-        padding: 15px 0 5px 0;
-        width: 220px;
-        height: 30px;
+        margin: 0 1px 0 4px;
+        padding: 10px 0 5px 0;
+        width: 190px;
+        height: 20px;
     }
 
     .store-map, .store-map-result {
         float: right;
 
-        margin: 0 5px 0 0px;
-        width: 50px;
+        margin: 0 2px 0 0px;
+        width: 40px;
     }
 
     .store-map {
-        padding: 15px 0 6px 0;
-        height: 28px;
+        padding: 10px 0 7px 0;
+        height: 18px;
     }
 
     .store-map-result {
-        padding: 12px 0 6px 0;
-        height: 30px;
+        padding: 9px 0 7px 0;
+        height: 20px;
 
         color: rgba(255, 255, 255, 0.7);
     }
@@ -433,14 +435,14 @@ a {
 
         color: rgba(255, 255, 255, 0.6);
         text-shadow: 0 0 7px rgba(222, 222, 222, 0.6);
-        font-size: 65px;
+        font-size: 68px;
 
         animation: breath-color 16s infinite;
         /* border: 1px solid red; */
     }
 
     .search {
-        margin: 120px 0 100px 0;
+        margin: 130px 0 100px 0;
 
         text-align: center;
 
@@ -749,7 +751,7 @@ a {
     }
 
     .store-map-result {
-        padding: 7px 0 9px 0;
+        padding: 10px 0 6px 0;
         height: 30px;
 
         color: rgba(255, 255, 255, 0.7);
@@ -1051,7 +1053,7 @@ a {
     .top-logo {
         float: left;
 
-        margin: 3px 0 0 20px;
+        margin: 3px 0 0 90px;
         padding: 2px 7px 2px 7px;
         font-size: 20px;
         font-weight: 500;
@@ -1064,10 +1066,10 @@ a {
     .top-search-bar {
         float: left;
 
-        margin: 5px 0 0 40px;
+        margin: 5px 0 0 50px;
         padding: 3px 10px 3px 10px;
 
-        width: 380px; 
+        width: 500px; 
         height: 25px;
         font-size: 16px;
         border-radius: 6px;
@@ -1081,7 +1083,7 @@ a {
     .top-login-btn {
         float: right;
 
-        margin: 8px 10px 0 0;
+        margin: 8px 25px 0 0;
         padding: 2px 7px 2px 7px;
         font-size: 16px;
         border-radius: 6px;
@@ -1122,7 +1124,7 @@ a {
     .search-bar {
         padding: 5px 10px 5px 10px;
 
-        width: 490px;
+        width: 480px;
         height: 50px;
         border-radius: 6px;
 
