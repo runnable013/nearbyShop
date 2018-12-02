@@ -1,24 +1,28 @@
 
 var logo, search;
 var didScroll;
-var navbarHeight; //영향을 받을 요소를 선택
+var navbarHeight; //sub-top fixed가 나오는 위치
+var resultTop;
+var nowHeight;
 
 $(document).ready(function() {
     logo = document.getElementById("logo");
     search = document.getElementById("search");
+    resultTop = $('.result').offset().top;
     navbarHeight = $('.result').outerHeight() - 50; 
 });
 
 function onSearch() {
-    $("html, body").animate({ scrollTop: $('.result').offset().top - 100 }, 600);
+    if(nowHeight < resultTop-95 || nowHeight > resultTop+50)
+        $("html, body").animate({ scrollTop: resultTop - 90 }, 600);
 }
 
-// 스크롤시에 사용자가 스크롤했다는 것을 알림
+// 스크롤을 할때마다 체크
 $(window).scroll(function(event){
     didScroll = true;
 });
 
-// hasScrolled()를 실행하고 didScroll 상태를 재설정
+// 스크롤 했을때 hasScrolled()을 실행함
 setInterval(function() {
     if (didScroll) {
         hasScrolled();
@@ -29,16 +33,16 @@ setInterval(function() {
 // 동작을 구현
 function hasScrolled() {
     // 현재 스크롤 위치
-    var st = $(this).scrollTop();
+    nowHeight = $(this).scrollTop();
     
-    if (st > navbarHeight){
-        // Scroll Down
+    if (nowHeight > navbarHeight){
+        // 스크롤 Down
         $('.sub-top').attr('style', 'visibility:visible;');
         $('.top').attr('style', 'background-color:rgba(0, 0, 0, 0.5)');
         $('.top-login-btn').attr('style', 'text-shadow: 0 0 3px rgba(222, 222, 222, 0)');
 
     } else {
-        // Scroll Up
+        // 스크롤 Up
         $('.sub-top').attr('style', 'visibility:hidden');
         $('.top').attr('style', 'background-color:rgba(0, 0, 0, 0)');
         $('.top-login-btn').attr('style', 'text-shadow: 0 0 3px rgba(222, 222, 222, 1)');
